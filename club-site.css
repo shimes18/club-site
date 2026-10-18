@@ -31,7 +31,6 @@ body {
 #logo{
     border-radius: 50%;
     height: 45px;
-    align-items: left;
 }
 
 #logo:hover{
@@ -69,17 +68,16 @@ a:hover{
     background-image: url("images/background.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: rgb(19, 20, 20);
     height:100vh;
-    background-position: absolute;
     display:flow-root;
 }
 
 #info{
-    margin-top: 35vh;
+    margin-top: 25vh;
     color: white;
     text-align:center;
-    font-weight: 100px;
+    font-weight: 100;
     font-size: 50px;
 }
 
@@ -92,6 +90,7 @@ a:hover{
 #input-email{
     background-color: #17171dd1;
     border: none;
+    box-sizing: border-box;
     width: 80vw;
     height:50px;
     border-radius: 30px;
@@ -115,7 +114,6 @@ a:hover{
     border-width: 2px;
     background-color: whitesmoke;
     color:black;
-    margin-left: -15vw;
     margin-top: 1vh;
     width: 90px;
     border-radius: 30px;
@@ -145,13 +143,103 @@ a:hover{
 }
 
 #about{
-    background-color: black;
+    background-color: rgb(19, 20, 20);
     color: whitesmoke;
-    margin-top: -3.2vh;
     display: flow-root;
+    justify-content: space-between;
 }
 
+
 #about h2{
+    display:flex;
+    justify-content: space-between;
+}
+
+#about h2 img{
+    margin-top: 0;
+}
+#about h2 text{
+    margin-right: 25vw;
+}
+
+#about {
+    font-size: 30px;
+}
+
+
+#flag img{
+    height: 20vh;
+    width: 20vw;
+}
+
+#introflag img{
+    margin-top:-3vh;
+    height:20vh;
+    width: 20vw;
+}
+
+#aboutflag img{
+    height:20vh;
+    width: 20vw;
+}
+
+#highlight{
+    background: linear-gradient(to right,orange,lightblue,#ec3750);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent
+}
+
+#projects{
+    background-color: rgb(19, 20, 20);
+    color:whitesmoke;
+    display:grid;
+}
+
+#projects h2{
+    font-size: 40px;
+}
+
+#project-text{
+    margin-top: -20px;
+}
+
+#project{
+    margin-left:5vw;
+    border: solid;
+    border-color: whitesmoke;
+    border-width: 1px;
+    height:280px;
+    max-width: 80vw;
+    background-color: rgb(19, 20, 20) ;
+    border-radius: 15px;
+    flex: 0 0 400px;
+    margin-bottom: 20px;
+}
+
+#project img{
+    height:180px;
+    width: 320px;
+    margin-top: 2vw;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    margin-left: 2vw;
+}
+
+#project-collection{
+    width:100%;
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+
+#BODS{
+    display: flow-root;
+    background-color: rgb(19, 20, 20);
     text-align: center;
-    margin-top: 20vh;
+    color:whitesmoke;
+}
+
+#BOD{
+    border: 2px solid whitesmoke;
+    
 }
