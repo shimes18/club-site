@@ -44,7 +44,8 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    position: relative;
+    width:100%;
+    position: fixed;
 }
 
 #selects{
@@ -173,9 +174,9 @@ a:hover{
 }
 
 #introflag img{
-    margin-top:-3vh;
     height:20vh;
     width: 20vw;
+    margin-top: 15px;
 }
 
 #aboutflag img{
@@ -233,24 +234,29 @@ a:hover{
 }
 
 #BODS{
-    display: flow-root;
+    display: grid;
     background-color: rgb(19, 20, 20);
     text-align: center;
     color:whitesmoke;
-    padding-left: 20vw;
-    
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
 }
 
 #BOD{
     border: 2px solid whitesmoke;
     border-radius: 20px;
-    width:60vw;
-    margin-top: 15px;
+    width:200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#BODS h1{
+    grid-column: 1 / -1;
 }
 
 #BOD img{
-    max-height: 200px;
-    max-width: 120px;
+    height: 140px;
+    width: 120px;
     padding-top: 20px;
 }
 
@@ -275,4 +281,28 @@ a:hover{
     transition: all 0.1s ease-in-out;
     background-color: #ec3750;
     color: whitesmoke;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#our-socials{
+    background-color: rgb(19, 20, 20);
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+}
+
+#our-socials span{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+#our-socials img{
+    border-radius: 100%;
+    max-height: 50px;
+    max-width: 40px;
 }
