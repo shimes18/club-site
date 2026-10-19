@@ -238,13 +238,14 @@ a:hover{
     text-align: center;
     color:whitesmoke;
     padding-left: 20vw;
+    
 }
 
 #BOD{
     border: 2px solid whitesmoke;
     border-radius: 20px;
     width:60vw;
-
+    margin-top: 15px;
 }
 
 #BOD img{
