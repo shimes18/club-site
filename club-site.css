@@ -237,9 +237,41 @@ a:hover{
     background-color: rgb(19, 20, 20);
     text-align: center;
     color:whitesmoke;
+    padding-left: 20vw;
 }
 
 #BOD{
     border: 2px solid whitesmoke;
-    
+    border-radius: 20px;
+    width:60vw;
+
+}
+
+#BOD img{
+    max-height: 200px;
+    max-width: 120px;
+    padding-top: 20px;
+}
+
+#bod-contact{
+    text-align: center;
+    align-self: center;
+    transition: all 0.1s ease-in-out;
+    box-shadow: none;
+    border-style: solid;
+    font-size: 20px;
+    border-width: 2px;
+    background-color: whitesmoke;
+    color:black;
+    margin-top: 1vh;
+    width: 90px;
+    border-radius: 30px;
+    border: none;
+    height: 40px;
+}
+
+#bod-contact:hover{
+    transition: all 0.1s ease-in-out;
+    background-color: #ec3750;
+    color: whitesmoke;
 }
