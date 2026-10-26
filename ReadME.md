@@ -2,7 +2,7 @@
 
 >This website is editable whenever we want to make this officiak
 
->This website can be accessed at shimes18.github.io/club-site/
+This website can be accessed at shimes18.github.io/club-site/
 
 >Language used in this website:
 >-HTML
